@@ -89,7 +89,7 @@ Compile the two package by typing:
     rosmake lsd_slam
 
 
-##2.3 ubuntu16.04 + ROS kinetic
+##　2.3 ubuntu16.04 + ROS kinetic
 **We use catkin to build this project!**
 For this you need to create catkin_workspace (if you do not have one yet), using:
     mkdir -p ~/catkin_ws/src
