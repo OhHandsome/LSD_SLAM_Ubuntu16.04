@@ -89,11 +89,17 @@ Compile the two package by typing:
     rosmake lsd_slam
 
 
+##2.3 ubuntu16.04 + ROS kinetic
+**We use catkin to build this project!**
+For this you need to create catkin_workspace (if you do not have one yet), using:
+    mkdir -p ~/catkin_ws/src
+    cd ~/catkin_ws
+
+Second, you need to copy the code to ~catkin_ws/src, compile the two package by typing:
+    catkin_make
 
 
-
-
-## 2.3 openFabMap for large loop-closure detection [optional]
+## 2.4 openFabMap for large loop-closure detection [optional]
 If you want to use openFABMAP for large loop closure detection, uncomment the following lines in `lsd_slam_core/CMakeLists.txt` :
 
     #add_subdirectory(${PROJECT_SOURCE_DIR}/thirdparty/openFabMap)
