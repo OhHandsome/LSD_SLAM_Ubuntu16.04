@@ -95,7 +95,7 @@ Compile the two package by typing:
 For this you need to create catkin_workspace (if you do not have one yet), using:
     
     mkdir -p ~/catkin_ws/src
-    cd ~/catkin_ws
+    cd ~/catkin_ws/src
 
 Second, you need to copy the code to ~catkin_ws/src, compile the two package by typing:
     
