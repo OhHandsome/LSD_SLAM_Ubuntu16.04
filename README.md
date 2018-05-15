@@ -90,7 +90,7 @@ Compile the two package by typing:
 
 
 
-##　2.3 ubuntu16.04 + ROS kinetic
+## 2.3 ROS kinetic + Ubuntu 16.04
 **We use catkin to build this project.**
 For this you need to create catkin_workspace (if you do not have one yet), using:
     mkdir -p ~/catkin_ws/src
