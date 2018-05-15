@@ -93,10 +93,12 @@ Compile the two package by typing:
 ## 2.3 ROS kinetic + Ubuntu 16.04
 **We use catkin to build this project.**
 For this you need to create catkin_workspace (if you do not have one yet), using:
+    
     mkdir -p ~/catkin_ws/src
     cd ~/catkin_ws
 
 Second, you need to copy the code to ~catkin_ws/src, compile the two package by typing:
+    
     git clone https://github.com/Zhang-HM/LSD_SLAM_Ubuntu16.04.git
     catkin_make
 
